@@ -1,0 +1,275 @@
+/*  Body  */
+
+body {
+	font-family: 'Poiret One', cursive;
+	}
+
+
+/*  Selected Element  */
+
+#selected {
+	color: #3388dd;
+	text-decoration: none;
+}
+
+#main {
+	color: #3388dd;
+	text-decoration: none;
+}
+
+
+/*  Image Editing  */
+
+.me {
+	border-radius: 50%;
+	background: #000;
+	margin: 50px 415px -19px;
+	padding: 7px;
+
+}
+
+/*  Heading  */
+
+h1 {
+	font-family: 'Megrim', cursive;
+	font-size: 3em;
+	text-align: center;
+	color: #3388dd;
+	background: #000;
+	padding: 18px 0;
+	margin: -15px 0;
+}
+
+h2 {
+	text-align: center;
+	font-size: 1.6em;
+	color: #fff;
+	background: #000;
+	padding: 7px 0;
+	margin: 13px 0px 12px;
+}
+
+/* About */
+
+.about {
+	background: none repeat scroll 0% 0% #000;
+	width: 405px;
+	height: 350px;
+	padding: 10px 10px;
+	border-radius: 20px 0px;
+	text-align: center;
+	margin: 20px 20px 0px;
+	color: #fff;
+	float: left;
+}
+
+.about h2 {
+	font-family: 'Megrim', cursive;
+	color: #3388dd;
+}
+
+
+
+/* Major */
+
+.major {
+	background: none repeat scroll 0% 0% #000;
+	width: 405px;
+	height: 350px;
+	padding: 10px 10px;
+	border-radius: 0px 20px;
+	text-align: center;
+	margin: 20px 20px 0px;
+	color: #fff;
+	float: right;
+}
+
+.major h2 {
+	font-family: 'Megrim', cursive;
+	color: #3388dd;
+}
+
+.major a:link {
+	color: #fff;
+	text-decoration: none;
+}
+
+.major a:visited {
+	color: #fff;
+}
+
+.major a:hover {
+	color: #3388dd;
+}
+
+.major a:active {
+	color: #3388dd;
+}
+
+/*  Nav  */
+
+
+ul.nav {
+	font-size: 1.50em;
+	margin: -138px auto;
+	padding: 120px 0px;
+	list-style: none;
+	display: block;
+	text-align: center;
+}
+
+ul.nav li{
+	display: inline-block;
+	margin: 0 10px;
+	padding: 20px;
+}
+
+ul.nav li a {
+	color: #000;
+	display: block;
+	text-decoration: none;
+}
+
+ul li a:hover, ul li a:focus {
+ color: #3388dd;
+}
+
+/*  Links  */
+
+
+
+ul.nav a:link {
+	color: #000;
+}
+
+ul.nav a:visited {
+	color: #000;
+}
+
+ul.nav a:hover {
+	color: #3388dd;
+}
+
+ul.nav a:active {
+	color: #3388dd;
+}
+
+/* Social Media */
+
+
+/*  Footer  */
+
+#copyright {
+	text-align: center;
+	margin: 0;
+	padding: 100px;
+}
+
+
+
+/*  Footer  */
+
+footer {
+    position : absolute;
+    bottom : -20px;
+    height : 40px;
+    margin-top : 40px;
+}
+
+#copyright p{
+  text-align: center;
+  margin-left: 500px;
+}
+
+
+/* Your Website Styles */
+
+/*Used www.designcouch.com/home/why/2013/11/01/responsive-css3-lightbox-with-no-javascript/*/
+
+/*Gallery Code forked from http://codepen.io/dudleystorey/pen/izJkB/*/
+
+@keyframes photopresent { 
+  0% { width: 0;  height: 0; opacity: 0;  }
+  30% { width: 450px; height: 0; opacity: 0;  }
+  60% { width: 450px; height: 560px; opacity: 0; margin: 20px; }
+  100% { width: 450px; height: 560px; opacity: 1; margin: 20px; }
+}
+
+html { 
+  min-height: 100%; 
+  position: relative; 
+}
+
+#container { 
+  background-color: #000;
+  border-radius: 20px;
+
+}
+
+#gallery { 
+  float: left; 
+}
+
+#gallery a { 
+  background: #fff; 
+  display: inline-block;
+  transition: 4s box-shadow ease-in;
+}
+
+#gallery { 
+  margin-left: 1.2rem; 
+  width: 150px; 
+  margin-top: 2.2rem;  
+}
+
+#gallery img { 
+  width: 150px; 
+  height: 150px; 
+  margin: 10px 0 5px;
+  text-align: center;
+}
+
+#gallery div { 
+  margin-left: 1.5rem; 
+  background: rgba(0,0,0,0); 
+  position: absolute; 
+  top: 5px; 
+  bottom: 0;
+  width: 100%; 
+  height: 100%;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden; 
+}
+
+#gallery div:target {
+  visibility: visible;
+  background: rgba(0,0,0,0.6);
+  transition: .35s background linear;
+}
+
+#gallery div:target a { 
+  box-shadow: 0 0 8px 8px rgba(0,0,0,0.3); 
+}
+
+#gallery div:target a img { 
+  animation: photopresent 3s forwards;
+}
+
+body:target #gallery div { 
+  background: rgba(0,0,0,0); 
+  transition: 1.5s background ease-out; 
+}
+
+
+
+
+
+
+
+
+
+
+
