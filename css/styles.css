@@ -263,7 +263,205 @@ body:target #gallery div {
   transition: 1.5s background ease-out; 
 }
 
+/* Education */
 
+.edu h3 {
+	font-size: 1.5em;
+}
+
+.edu p {
+	font-size: 1em;
+}
+
+/* Work */
+
+.work {
+	background: none repeat scroll 0% 0% #000;
+	width: 405px;
+	height: 400px;
+	padding: 10px 10px;
+	border-radius: 20px;
+	text-align: center;
+	margin: 10px 20px 0px;
+	color: #fff;
+	float: left;
+}
+
+
+
+.work h2 {
+	font-family: 'Megrim', cursive;
+	color: #3388dd;
+}
+
+/* Title */
+
+.title {
+	background: none repeat scroll 0% 0% #000;
+	width: 100%;
+	border-radius: 20px 20px 0px 0px;
+	text-align: center;
+	color: #fff;
+	float: center;
+	margin: 20px 0px;
+	padding: 10px 10px;
+}
+
+.title h2 {
+	font-family: 'Megrim', cursive;
+	color: #3388dd;
+	font-size: 2.5em;
+}
+
+
+/* Skills */
+
+.skills {
+	background: none repeat scroll 0% 0% #000;
+	width: 405px;
+	height: 400px;
+	padding: 10px 10px;
+	border-radius: 20px;
+	text-align: center;
+	margin: 10px 20px 0px;
+	color: #fff;
+	float: right;
+}
+
+.skills h2 {
+	font-family: 'Megrim', cursive;
+	color: #3388dd;
+}
+
+/* Languages */
+
+.lang {
+	background: none repeat scroll 0% 0% #000;
+	width: 100%;
+	border-radius: 0px 0px 20px 20px;
+	text-align: center;
+	color: #fff;
+	float: center;
+	margin: 20px 0px 20px 0px;
+}
+
+.lang h2 {
+	font-family: 'Megrim', cursive;
+	color: #3388dd;
+}
+
+/* Resume */
+
+.edu {
+	background: none repeat scroll 0% 0% #000;
+	width: 405px;
+	height: 250px;
+	padding: 10px 10px;
+	border-radius: 20px;
+	text-align: center;
+	color: #fff;
+	margin: 20px 20px;
+	float: left;
+}
+
+.edu h2 {
+	font-family: 'Megrim', cursive;
+	color: #3388dd;
+}
+
+.contact {
+	background: none repeat scroll 0% 0% #000;
+	width: 405px;
+	height: 250px;
+	border-radius: 20px;
+	text-align: center;
+	color: #fff;
+	padding: 10px 10px;
+	margin: 20px 20px;
+	float: right;
+}
+
+.contact h2 {
+	font-family: 'Megrim', cursive;
+	color: #3388dd;
+}
+
+/*  Nav  */
+
+
+ul.nav {
+	font-size: 1.50em;
+	margin: -138px auto;
+	padding: 120px 0px;
+	list-style: none;
+	display: block;
+	text-align: center;
+}
+
+ul.nav li{
+	display: inline-block;
+	margin: 0 10px;
+	padding: 20px;
+}
+
+ul.nav li a {
+	color: #000;
+	display: block;
+	text-decoration: none;
+}
+
+ul li a:hover, ul li a:focus {
+ color: #3388dd;
+}
+
+/*  Links  */
+
+
+
+ul.nav a:link {
+	color: #000;
+}
+
+ul.nav a:visited {
+	color: #000;
+}
+
+ul.nav a:hover {
+	color: #3388dd;
+}
+
+ul.nav a:active {
+	color: #3388dd;
+}
+
+
+
+/*  Footer  */
+
+#copyright {
+	text-align: center;
+	margin: 0;
+	padding: 100px;
+}
+
+/* Social Media Icons from http://robby-designs.deviantart.com/art/Socialcircles-Free-social-icons-circular-347921678 */
+
+
+/* P styling */
+
+.skills ul li {
+	text-align: justify;
+	letter-spacing: .05em;
+	padding: 10px 10px;
+}
+
+ul li {
+	text-decoration: none;
+}
+
+.work h2 p {
+	padding: 5px 1px;
+}
 
 
 
